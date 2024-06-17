@@ -11,7 +11,7 @@ enum SampleEnum {
 struct SampleStruct {
     id: u256,
     name: ByteArray,
-    status: SampleEnum,
+    // status: SampleEnum,
 }
 
 #[derive(Drop, Serde, starknet::Store)]
